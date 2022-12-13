@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{F8D138EE-F00B-46F6-A44F-1AFF2A8C7373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6BC394D7-6FD9-4B41-8EE6-6E06DC1A3CD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{757AFBE6-27E6-4531-81DD-4C0C0184EE24}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{4CF7E5A0-F324-4AC7-B262-0BFF4F09FF95}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{EF8A502E-F693-4824-9F19-7493F5717354}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{3CEF0044-3FB7-4AB0-9592-39B4551820FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExecutePowerShellScript", "ExecutePowerShellScript", "{60B8187B-E206-4B3F-BD45-27F5F0F95FBF}"
+	ProjectSection(SolutionItems) = preProject
+		ExecutePowerShellScript.xml = ExecutePowerShellScript.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{A11B4AED-A040-454F-9676-8139D8BAD9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutePowerShellScript_1", "ExecutePowerShellScript_1\ExecutePowerShellScript_1.csproj", "{6689CB86-6A5C-4332-A972-6EE723F21958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CEF0044-3FB7-4AB0-9592-39B4551820FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEF0044-3FB7-4AB0-9592-39B4551820FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEF0044-3FB7-4AB0-9592-39B4551820FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEF0044-3FB7-4AB0-9592-39B4551820FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6689CB86-6A5C-4332-A972-6EE723F21958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6689CB86-6A5C-4332-A972-6EE723F21958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6689CB86-6A5C-4332-A972-6EE723F21958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6689CB86-6A5C-4332-A972-6EE723F21958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF8A502E-F693-4824-9F19-7493F5717354} = {F8D138EE-F00B-46F6-A44F-1AFF2A8C7373}
+		{3CEF0044-3FB7-4AB0-9592-39B4551820FF} = {F8D138EE-F00B-46F6-A44F-1AFF2A8C7373}
+		{60B8187B-E206-4B3F-BD45-27F5F0F95FBF} = {6BC394D7-6FD9-4B41-8EE6-6E06DC1A3CD5}
+		{A11B4AED-A040-454F-9676-8139D8BAD9DE} = {60B8187B-E206-4B3F-BD45-27F5F0F95FBF}
+		{6689CB86-6A5C-4332-A972-6EE723F21958} = {A11B4AED-A040-454F-9676-8139D8BAD9DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC61011E-AB27-4176-96A5-19B720C434CB}
+	EndGlobalSection
+EndGlobal
