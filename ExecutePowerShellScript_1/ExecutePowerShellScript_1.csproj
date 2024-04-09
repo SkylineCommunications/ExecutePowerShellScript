@@ -41,10 +41,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <ProjectReference Include="..\AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj">
-      <Project>{3CEF0044-3FB7-4AB0-9592-39B4551820FF}</Project>
-      <Name>AutomationScript_ClassLibrary</Name>
-    </ProjectReference>
     <AdditionalFiles Include="stylecop.json" />
     <Content Include=".editorconfig" />
     <Reference Include="System.Xml" />
@@ -66,7 +62,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkId="1" DisProjectType="automationScriptProject" DisLinkedXmlFile="..\ExecutePowerShellScript.xml" />
+      <UserProperties DisLinkedXmlFile="..\ExecutePowerShellScript.xml" DisProjectType="automationScriptProject" DisLinkId="1" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
